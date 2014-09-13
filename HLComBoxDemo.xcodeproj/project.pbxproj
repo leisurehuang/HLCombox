@@ -21,6 +21,8 @@
 		1A32AEED19C3D8DB00728AD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A32AECF19C3D8DB00728AD3 /* UIKit.framework */; };
 		1A32AEF519C3D8DB00728AD3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A32AEF319C3D8DB00728AD3 /* InfoPlist.strings */; };
 		1A32AEF719C3D8DB00728AD3 /* HLComBoxDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A32AEF619C3D8DB00728AD3 /* HLComBoxDemoTests.m */; };
+		1A32AF0219C3DAD500728AD3 /* HLComBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A32AF0119C3DAD500728AD3 /* HLComBoxView.m */; };
+		1A32AF0419C3DEB500728AD3 /* down_dark0.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A32AF0319C3DEB500728AD3 /* down_dark0.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		1A32AEF219C3D8DB00728AD3 /* HLComBoxDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HLComBoxDemoTests-Info.plist"; sourceTree = "<group>"; };
 		1A32AEF419C3D8DB00728AD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1A32AEF619C3D8DB00728AD3 /* HLComBoxDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLComBoxDemoTests.m; sourceTree = "<group>"; };
+		1A32AF0019C3DAD500728AD3 /* HLComBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLComBoxView.h; sourceTree = "<group>"; };
+		1A32AF0119C3DAD500728AD3 /* HLComBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLComBoxView.m; sourceTree = "<group>"; };
+		1A32AF0319C3DEB500728AD3 /* down_dark0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down_dark0.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +87,8 @@
 		1A32AEBF19C3D8DB00728AD3 = {
 			isa = PBXGroup;
 			children = (
+				1A32AF0019C3DAD500728AD3 /* HLComBoxView.h */,
+				1A32AF0119C3DAD500728AD3 /* HLComBoxView.m */,
 				1A32AED119C3D8DB00728AD3 /* HLComBoxDemo */,
 				1A32AEF019C3D8DB00728AD3 /* HLComBoxDemoTests */,
 				1A32AECA19C3D8DB00728AD3 /* Frameworks */,
@@ -126,6 +133,7 @@
 		1A32AED219C3D8DB00728AD3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1A32AF0319C3DEB500728AD3 /* down_dark0.png */,
 				1A32AED319C3D8DB00728AD3 /* HLComBoxDemo-Info.plist */,
 				1A32AED419C3D8DB00728AD3 /* InfoPlist.strings */,
 				1A32AED719C3D8DB00728AD3 /* main.m */,
@@ -231,6 +239,7 @@
 			files = (
 				1A32AEE419C3D8DB00728AD3 /* Images.xcassets in Resources */,
 				1A32AED619C3D8DB00728AD3 /* InfoPlist.strings in Resources */,
+				1A32AF0419C3DEB500728AD3 /* down_dark0.png in Resources */,
 				1A32AEDF19C3D8DB00728AD3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A32AF0219C3DAD500728AD3 /* HLComBoxView.m in Sources */,
 				1A32AEE219C3D8DB00728AD3 /* HLViewController.m in Sources */,
 				1A32AEDC19C3D8DB00728AD3 /* HLAppDelegate.m in Sources */,
 				1A32AED819C3D8DB00728AD3 /* main.m in Sources */,

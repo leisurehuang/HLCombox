@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface HLViewController : UIViewController
+#import "HLComBoxView.h"
+@interface HLViewController : UIViewController<HLComBoxViewDelegate>
 
 @end
